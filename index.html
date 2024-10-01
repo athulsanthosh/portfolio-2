@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fa-solid fa-briefcase lg-fa-2xl" style="color: #ffffff;"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+
+    <!-- Home Section -->
+    <section id="home" class="text-center d-flex align-items-center" style="min-height: 100vh;">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-white">Hi, I'm <span class="highlight">Athul Santhosh</span></h1>
+            <p class="lead text-light mb-4">Full Stack Developer & Tech Enthusiast</p>
+            <a href="#projects" class="btn btn-primary btn-lg me-2 mt-3">View My Work</a>
+            <a href="your-cv.pdf" class="btn btn-outline-light btn-lg mt-3 me-1" download>Download CV</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="fw-bold">About Me</h2>
+            <p class="lead">I'm a Full Stack Developer with a passion for building dynamic and efficient web
+                applications. I love to solve real-world problems through technology and continuously learn new skills
+                in the ever-evolving field of web development.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 text-center bg-dark text-light">
+        <div class="container">
+            <h2 class="fw-bold">Skills</h2>
+            <div class="row">
+                <!-- Frontend Skills -->
+                <div class="col-md-6 mb-4">
+                    <h4 class="fw-bold">Frontend Development</h4>
+                    <div class="progress-container">
+                        <p>HTML <span class="float-end">90%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 90%;"></div>
+                        </div>
+                        <p>CSS <span class="float-end">85%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 85%;"></div>
+                        </div>
+                        <p>JavaScript <span class="float-end">80%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 80%;"></div>
+                        </div>
+                        <p>React <span class="float-end">75%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Backend Skills -->
+                <div class="col-md-6">
+                    <h4 class="fw-bold">Backend & Tools</h4>
+                    <div class="progress-container">
+                        <p>Node.js <span class="float-end">80%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 80%;"></div>
+                        </div>
+                        <p>Express.js <span class="float-end">75%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 75%;"></div>
+                        </div>
+                        <p>MongoDB <span class="float-end">70%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 70%;"></div>
+                        </div>
+                        <p>Git & GitHub <span class="float-end">90%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="fw-bold">Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Timetable Generator App</h5>
+                            <p class="card-text">A Flutter-based application that automates the creation of school timetables. Users can input data like class schedules, teacher availability, and subjects, and the app generates optimized timetables with minimal conflicts, streamlining the scheduling process for school administrators.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Paddy Leaf Disease Identification</h5>
+                            <p class="card-text"> A smart agriculture project that uses a ResNet50 machine learning model to detect diseases in paddy leaves. Once a disease is identified, the system triggers an automated pesticide sprayer via NodeMCU. The process is controlled through a Flutter app.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-light text-center">
+        <div class="container">
+            <h2 class="fw-bold">Contact Me</h2>
+            <p>If you would like to get in touch, feel free to reach out via email or social platforms:</p>
+                <a href="mailto:athulputhuvelil" class="text-light">
+                    <i class="fa-solid fa-envelope fa-2x"></i>
+                </a>
+                <a href="https://github.com/athulsanthosh" class="text-light">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourlinkedin" class="text-light">
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                </a>
+        </div>
+    </section>
+
+    <footer class="text-center p-3 bg-dark">
+        <p class="text-light">&copy; 2024. All rights reserved.</p>
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
